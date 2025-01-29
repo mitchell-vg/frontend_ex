@@ -3,9 +3,86 @@
     border-radius: 1rem;
     color: black;
     padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+}
+h1 {
+    margin: 0;              
+}
+.container{
+    padding: 4rem;
+}
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 1rem;  
+    background-color: lightskyblue;            
+}
+nav ul {
+    display: flex;          
+    list-style: none;       
+    margin: 0;              
+}
+  header nav ul li {
+    padding: 0 0.5rem;        
+}
+  header nav ul li a {
+    text-decoration: none;  
+    color: white;         
+}
+section#about {
+    width: 100%;
+}
+.container.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #eeeee4;
+    padding: 4rem;
+}
+
+section#technologies h2 {
+    display: flex;
+    justify-content: center;
+}
+section#technologies .container {
+    margin-top: -3rem;
+}
+.card h3 {
+    color: blue;
+}
+section#resources .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #eeeee4;
+}
+section#resources {
+    width: 100%;
+}
+#resources ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+footer .container {
+    padding: 0;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: gray;
+    color: white;
 }
