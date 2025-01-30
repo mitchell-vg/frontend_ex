@@ -1,0 +1,18 @@
+@use "variables" as v;
+
+.tea-card__button{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 0.6rem;
+
+    &--like{
+        background: v.$primary-color;
+    }
+    &--cart{
+        background: v.$secondary-color;
+    }
+    &--buy{
+        background: v.$other-color;
+    }
+}
