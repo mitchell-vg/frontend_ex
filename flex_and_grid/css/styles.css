@@ -1,4 +1,12 @@
-/* .card{
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+ }
+ .card{
     background-color: whitesmoke;
     border-radius: 1rem;
     color: black;
@@ -7,11 +15,13 @@
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
+
 h1 {
     margin: 0;              
 }
@@ -23,7 +33,7 @@ header .container {
     justify-content: center;
     align-items: center;    
     gap: 1rem;  
-    background-color: lightskyblue;            
+    background-color: #8ACEF5;            
 }
 nav ul {
     display: flex;          
@@ -40,7 +50,7 @@ section#about {
 }
 .container.about-content {
     text-align: center;
-    background-color: #eeeee4;
+    background-color: #F6FDFB;
     padding: 4rem;
 }
 
@@ -76,8 +86,4 @@ footer {
     justify-content: center;
     background: gray;
     color: white;
-} */
- .container{
-    max-width: 80%;
-    margin: 0 auto;
- }
+}
