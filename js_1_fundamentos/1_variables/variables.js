@@ -5,6 +5,7 @@
 // - Imprime los valores en la consola para verificar los cambios
 console.log('Ejercicio 1');
 // Tu código aquí...
+<<<<<<< HEAD
 var nombre = "Jairo";
 let nombreLet = "JairoLet";
 const nombreConst ="JairoConst";
@@ -16,6 +17,9 @@ nombreLet ="kamilet";
 console.log(nombre);
 console.log(nombreLet);
 console.log(nombreConst);
+=======
+
+>>>>>>> f7dc1102abae238fd88f1c55de93dba9b3ebfad3
 
 
 // Ejercicio 2: Scope (Alcance de variables)
@@ -25,6 +29,7 @@ console.log(nombreConst);
 // - Imprime los valores en la consola
 console.log('Ejercicio 2');
 // Tu código aquí...
+<<<<<<< HEAD
 
 if (true) {
     var peso = 50
@@ -33,3 +38,5 @@ if (true) {
 }
 console.log(peso)
 // console.log(animal) fuera del if no se puede imprimir esta variable
+=======
+>>>>>>> f7dc1102abae238fd88f1c55de93dba9b3ebfad3

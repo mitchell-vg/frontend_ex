@@ -7,6 +7,7 @@ const frutas = ["manzana", "pera", "uva"];
 const verduras = ["zanahoria", "brocoli"];
 
 // Tu código aquí...
+<<<<<<< HEAD
 const barrigaLlena = [...frutas, ...verduras]; //spread con tu array
 
 const alimentos1 = {
@@ -23,6 +24,14 @@ const barrigaSuperLlena = {...alimentos1, ...alimentos2};
 
 console.log(barrigaLlena);
 console.log(barrigaSuperLlena);
+=======
+
+
+
+
+
+
+>>>>>>> f7dc1102abae238fd88f1c55de93dba9b3ebfad3
 
 
 // Ejercicio 8: Uso del operador Rest en funciones
@@ -32,6 +41,7 @@ console.log(barrigaSuperLlena);
 // - Llama a la función con diferentes números y muestra el resultado en la consola
 console.log('Ejercicio 8');
 // Tu código aquí...
+<<<<<<< HEAD
 
 function sumar(...numeros) {
     return numeros.reduce((total,num) => total + num, 0);
@@ -39,3 +49,5 @@ function sumar(...numeros) {
 }
 console.log(sumar(22, 20, 25));
 
+=======
+>>>>>>> f7dc1102abae238fd88f1c55de93dba9b3ebfad3
